@@ -11,14 +11,13 @@
             <div style="display: grid;">
                     <div style="grid-row-start: 1; grid-row-end: 2; background-color: lightblue;">
                         <h2 style="text-decoration: underline; text-align: center;">Resources</h2>
-                        <ul>
-                            <li>
-                                <a style="background-color: white; padding: 5px 5px 5px 5px; margin-left: 15px;">Proportal</a>
-                            </li>
-                            <li>
-                                <a style="background-color: white; padding: 5px 5px 5px 5px; margin: 15px;">Teams</a>
-                            </li>
-                        </ul>
+
+                        <nav class="SideNav border" style="max-width: 100%">
+                            <a class="SideNav-item" href="#url">Account</a>
+                            <a class="SideNav-item" href="#url" aria-current="page">Profile</a>
+                            <a class="SideNav-item" href="#url">Emails</a>
+                            <a class="SideNav-item" href="#url">Notifications</a>
+                          </nav>
                     </div>
                     <div style="grid-row-start: 1; grid-row-end: 2; background-color: gray;">
                         <h2 style="text-decoration: underline; text-align: center;">Announcements</h2>
@@ -28,12 +27,14 @@
                                 <div style="margin: 10px; padding: 5px; background-color: bisque;">
                                     <h3>Title</h3>
                                     <p>Hello everyone!</p>
+                                    <span class="Label mr-1 Label--danger">important</span>
                                 </div>
                             </li>
                             <li style="list-style: none;">
                                 <div style="margin: 10px; padding: 5px; background-color: bisque;">
                                     <h3>Title</h3>
                                     <p>Hello everyone!</p>
+                                    <span class="Label mr-1 Label--success">update</span>
                                 </div>
                             </li>
                             <li style="list-style: none;">
